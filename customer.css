@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+body {
+    background-color: #F6F9FE;
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.main {
+    width: max(70ch, 100% - 4rem);
+}
+
+.logo {
+    height: 20px;
+}
+
+.search-container img {
+    height: 15px;
+    width: 15px;
+    margin-left: -30px;
+    margin-bottom: -3px;
+}
+
+.add-icon img {
+    /* height: 550px; */
+    width: 80px;
+    margin-top: 10px;
+}
+
+.messages-icon img {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+}
+
+.notifications-icon img {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+}
+
+.profile-icon {
+    height: 35px;
+    width: 35px;
+}
+
+.navbar-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    position: fixed;
+    padding-right: 150px;
+    width: 1150px;
+    padding-left: 50px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.left-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    padding-left: 150px;
+}
+
+.search-container input::placeholder {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.search-container input {
+    width: 300px;
+    font-family: 'Josefin Sans' sans-serif;
+    height: 22px;
+    border: none;
+    border-radius: 25px;
+    background-color: #cccccc17;
+    padding: 5px 15px;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.right-container div {
+    margin-left: 15px;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.side-bar-menu {
+    background-color: #364B93;
+    border-radius: 0 30px 0 0;
+    /* padding-right: 30px; */
+    padding-left: 20px;
+    margin-right: 30px;
+    height: 701px;
+    width: 160px;
+    position: fixed;
+    margin-top: 50px;
+    padding-top: 100px;
+}
+
+.side-bar-menu li {
+    list-style: none;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -10px;
+    border-radius: 10px;
+}
+
+.side-bar-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: all 0.3 ease 0s;
+}
+
+.side-bar-menu li a:hover {
+    color: #F48514;
+}
+
+.active {
+    padding: 15px;
+    background-color: #F6F9FE;
+}
+
+/* .side-bar-menu ul li.active {
+    background-color: #F6F9FE;
+    color: black;
+}
+
+.side-bar-menu ul li.active a {
+    color: black;
+}
+
+.slide {
+    background-color: #F6F9FE;
+    position: relative;
+    width: 100%;
+    height: 17px;
+    top: -120px;
+    z-index: -1;
+    transform: 0.5s;
+    opacity: 0;
+    border-radius: 10px;
+} */
+
+/* .side-bar-menu ul li:nth-child(1).active ~ .slide {
+    opacity: 1;
+} */
+
+
+.table-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+  
+/* .filter-box input[type="text"], */
+.filter-box select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #F6F9FE;
+}
+
+select {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+select option{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.fb2 {
+    margin-left: 10px;
+}
+
+.customer-table {
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 305px;
+    margin-right: 150px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+
+}
+
+thead th {
+    background-color: #f2f2f2;
+    padding-left: 5px; /* Add padding to table head */
+}
+  
+tbody td {
+    padding-left: 20px; /* Add padding to table body */
+}
+
+th, td {
+    padding-right: 8px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+thead tr {
+    padding: 10px;
+
+}
+
+thead th {
+    background-color: #f2f2f2;
+    
+}
+  
+tbody {
+    background-color: #ffffff;
+}
+
+tr td {
+    font-size: 14px;
+}
+
+tr td a {
+    text-decoration: none;
+    color: white;
+    background-color: #0581E8;
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.table-search input, img {
+    margin-right: 15px;
+}
+
+.table-search img {
+    height: 15px;
+    width: 15px;
+    margin-left: -50px;
+    margin-bottom: -3px;
+
+}
+
+.table-search input::placeholder {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.table-search input {
+    width: 200px;
+    font-family: 'Josefin Sans' sans-serif;
+    height: 22px;
+    border: none;
+    border-radius: 5px;
+    background-color: #cccccc17;
+    padding: 5px 15px;
+}
